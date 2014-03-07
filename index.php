@@ -1,8 +1,8 @@
 <!doctype html>
 <head>
 	<meta charset="utf-8">
-	<title>Site Name - Template</title>
-	<meta name="description" content="This is a HTML5 Sass Compass Template">
+	<title>Szabo Marius - Some things about the web</title>
+	<meta name="description" content="Blog where I talk about things I find on the web relating to web design">
 	<meta name="author" content="Szabo Marius">
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
