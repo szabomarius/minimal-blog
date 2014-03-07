@@ -19,9 +19,21 @@
 	<h1>Szabo Marius</h1>
 	<h2>Some things about the web</h2>
 	<ul>
-		<li><img src="#" alt="twitter">
-			<a href="#">Twitter</a>
-		</img></li>
+		<li><a href="https://twitter.com/" target="_blank">
+			<img src="img/social/twitter-icon.png" title="Visit my Twitter page" alt="Twitter profile" />
+		</a></li>
+		<li><a href="https://www.facebook.com" target="_blank">
+			<img src="img/social/facebook-icon.png" title="Visit my Facebook page" alt="Facebook profile" />
+		</a></li>
+		<li><a href="https://plus.google.com" target="_blank">
+			<img src="img/social/googleplus-icon.png" title="Visit my Google+ page" alt="Google+ profile" />
+		</a></li>
+		<li><a href="https://www.linkedin.com/" target="_blank">
+			<img src="img/social/linkedin-icon.png" title="Visit my LinkedIn page" alt="LinkedIn profile" />
+		</a></li>
+		<li><a href="https://github.com/" target="_blank">
+			<img src="img/social/github-icon.png" title="Visit my GitHub page"  alt="GitHub profile" />
+		</a></li>
 	</ul>
 </header> <!-- end of .main_header -->
 
