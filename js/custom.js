@@ -30,9 +30,43 @@ $(".social_links li").tooltip({
 $(".social_links li").hover(
 	function() {
 		var location = $(this).find("img");
-		location.attr('src' , 'img/social/twitter-icon-active.png');
+		switch (location.attr("title")) {
+			case 'Twitter' :
+				location.attr('src' , 'img/social/twitter-icon-active.png');
+				break;
+			case 'Facebook' :
+				location.attr('src' , 'img/social/facebook-icon-active.png');
+				break;
+			case 'Google+' :
+				location.attr('src' , 'img/social/googleplus-icon-active.png');
+				break;
+			case 'LinkedIn' :
+				location.attr('src' , 'img/social/linkedin-icon-active.png');
+				break;
+			case 'Github' :
+				location.attr('src' , 'img/social/github-icon-active.png');
+				break;
+		}
+		// location.attr('src' , 'img/social/twitter-icon-active.png');
 	},
 	function() {
-		$(this).find("img").attr('src' , 'img/social/twitter-icon.png');
+		var location = $(this).find("img");
+		switch (location.attr("title")) {
+			case 'Twitter' :
+				location.attr('src' , 'img/social/twitter-icon.png');
+				break;
+			case 'Facebook' :
+				location.attr('src' , 'img/social/facebook-icon.png');
+				break;
+			case 'Google+' :
+				location.attr('src' , 'img/social/googleplus-icon.png');
+				break;
+			case 'LinkedIn' :
+				location.attr('src' , 'img/social/linkedin-icon.png');
+				break;
+			case 'Github' :
+				location.attr('src' , 'img/social/github-icon.png');
+				break;
+		}
 	}
 );
