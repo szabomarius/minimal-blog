@@ -20,19 +20,19 @@
 	<a href="#"><h1>Szabo Marius</h1></a>
 	<h2>Some things about the web</h2>
 	<ul class="social_links">
-		<li class="social_twitter"><a href="https://twitter.com/" target="_blank">
+		<li data-tip="Twitter"><a href="https://twitter.com/" target="_blank">
 			<img src="img/social/twitter-icon.png"  title="Twitter" alt="Twitter profile" />
 		</a></li>
-		<li><a href="https://www.facebook.com" target="_blank">
+		<li data-tip="Facebook"><a href="https://www.facebook.com" target="_blank">
 			<img src="img/social/facebook-icon.png" title="Facebook" alt="Facebook profile" />
 		</a></li>
-		<li><a href="https://plus.google.com" target="_blank">
+		<li data-tip="Google+"><a href="https://plus.google.com" target="_blank">
 			<img src="img/social/googleplus-icon.png" title="Google+" alt="Google+ profile" />
 		</a></li>
-		<li><a href="https://www.linkedin.com/" target="_blank">
+		<li data-tip="LinkedIn"><a href="https://www.linkedin.com/" target="_blank">
 			<img src="img/social/linkedin-icon.png" title="LinkedIn" alt="LinkedIn profile" />
 		</a></li>
-		<li><a href="https://github.com/" target="_blank">
+		<li data-tip="Github"><a href="https://github.com/" target="_blank">
 			<img src="img/social/github-icon.png" title="Github"  alt="GitHub profile" />
 		</a></li>
 	</ul>
