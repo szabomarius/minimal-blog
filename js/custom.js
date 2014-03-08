@@ -27,9 +27,9 @@ $(".social_links li").tooltip({
 });
 
 // Rollover effect
-$(".social_links li").hover(
+$(".social_links img").hover(
 	function() {
-		var location = $(this).find("img");
+		var location = $(this);
 		switch (location.attr("title")) {
 			case 'Twitter' :
 				location.attr('src' , 'img/social/twitter-icon-active.png');
@@ -47,24 +47,23 @@ $(".social_links li").hover(
 				location.attr('src' , 'img/social/github-icon-active.png');
 				break;
 		}
-		// location.attr('src' , 'img/social/twitter-icon-active.png');
 	},
 	function() {
-		var location = $(this).find("img");
-		switch (location.attr("title")) {
-			case 'Twitter' :
+		var location = $(this);
+		switch (location.attr("alt")) {
+			case 'Twitter profile' :
 				location.attr('src' , 'img/social/twitter-icon.png');
 				break;
-			case 'Facebook' :
+			case 'Facebook profile' :
 				location.attr('src' , 'img/social/facebook-icon.png');
 				break;
-			case 'Google+' :
+			case 'Google+ profile' :
 				location.attr('src' , 'img/social/googleplus-icon.png');
 				break;
-			case 'LinkedIn' :
+			case 'LinkedIn profile' :
 				location.attr('src' , 'img/social/linkedin-icon.png');
 				break;
-			case 'Github' :
+			case 'Github profile' :
 				location.attr('src' , 'img/social/github-icon.png');
 				break;
 		}
