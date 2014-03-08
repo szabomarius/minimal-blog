@@ -18,7 +18,7 @@
 <header class="main_header">
 	<h1>Szabo Marius</h1>
 	<h2>Some things about the web</h2>
-	<ul>
+	<ul class="social_links">
 		<li><a href="https://twitter.com/" target="_blank">
 			<img src="img/social/twitter-icon.png" title="Visit my Twitter page" alt="Twitter profile" />
 		</a></li>

@@ -3,3 +3,22 @@
 
 // HEADER STYLES
 // ---------------------------------------------------------------
+.main_header {
+	h1 {
+		font-size: $header_h1_fs / $base-font-size *1em;
+		line-height: $header_h1_lh / $header_h1_fs *1em;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	h2 {
+		font-family: $subtitle-type;
+		font-size: $header_h2_fs / $base-font-size *1em;
+		line-height: $header_h2_lh / $header_h2_fs *1em;
+		text-transform: uppercase;
+		color: $light-bg-color;
+		letter-spacing: 1px;
+	}
+}
+.social_links {
+	line-height:100px;
+}

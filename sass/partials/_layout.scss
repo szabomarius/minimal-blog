@@ -3,3 +3,15 @@
 
 // HEADER STYLES
 // ---------------------------------------------------------------
+.main_header {
+	text-align: center;
+	h2 {
+		background-color: $main-color;
+	}
+}
+.social_links {
+	li {
+		display: inline;
+		margin:0px 8px 0px 8px;
+	}
+}

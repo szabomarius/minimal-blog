@@ -2,11 +2,14 @@
 // ---------------------------------------------------------------
 body {
 	color: $basic-text-color;
-	font-family: $general-type;
+	font-family: $reading-type;
 	font-size: $base-font-size;
+	background-color: $light-bg-color;
 }
 a {
 	text-decoration:none;
-	color:$basic-text-color;
-	@include anchor-lvha($basic-text-color , $basic-text-color);
+	color: $basic-text-color;
+	@include anchor-lvha( $basic-text-color , $basic-text-color );
 }
+h1 {font-family: $heading-type;}
+h2 {font-family: $subheading-type;}
