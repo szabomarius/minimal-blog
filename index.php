@@ -22,7 +22,6 @@
 	<ul class="social_links">
 		<li data-tip="Twitter"><a href="https://twitter.com/" target="_blank">
 			<img class="inactive_icon" src="img/social/twitter-icon.png"  title="Twitter" alt="Twitter profile" />
-			<img class="active_icon" src="img/social/twitter-icon-active.png" title="Twitter" alt="Twitter profile" />
 		</a></li>
 		<li data-tip="Facebook"><a href="https://www.facebook.com" target="_blank">
 			<img src="img/social/facebook-icon.png" title="Facebook" alt="Facebook profile" />
