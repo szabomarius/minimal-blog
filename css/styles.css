@@ -170,7 +170,13 @@ h2 {
   margin: 0px 8px 0px 8px;
 }
 
-/* line 19, ../sass/partials/_layout.scss */
+/* line 18, ../sass/partials/_layout.scss */
+.active_icon {
+  margin-left: -40px;
+  display: none;
+}
+
+/* line 23, ../sass/partials/_layout.scss */
 .ui-tooltip {
   background: #3f3f3f;
   color: white;
@@ -183,13 +189,13 @@ h2 {
   font-size: 0.8em;
 }
 
-/* line 32, ../sass/partials/_layout.scss */
+/* line 36, ../sass/partials/_layout.scss */
 .ui-tooltip-content {
   position: relative;
   padding: 1em;
 }
 
-/* line 36, ../sass/partials/_layout.scss */
+/* line 40, ../sass/partials/_layout.scss */
 .ui-tooltip-content::after {
   content: '';
   position: absolute;
@@ -197,7 +203,7 @@ h2 {
   display: block;
   width: 0;
   top: -6px;
-  left: 45%;
+  left: 40%;
   border-color: #3f3f3f transparent;
   border-width: 0 8px 8px;
 }

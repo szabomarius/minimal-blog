@@ -25,3 +25,14 @@ $(".social_links li").tooltip({
 		at: 'center bottom+10'
 	}
 });
+
+// Rollover effect
+$(".social_links li").hover(
+	function() {
+		var location = $(this).find("img");
+		location.attr('src' , 'img/social/twitter-icon-active.png');
+	},
+	function() {
+		$(this).find("img").attr('src' , 'img/social/twitter-icon.png');
+	}
+);
