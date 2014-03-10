@@ -5,6 +5,7 @@
 // ---------------------------------------------------------------
 .main_header {
 	text-align: center;
+    margin:0px 0px 20px 0px;
 	h2 {
 		background-color: $main-color;
 	}
@@ -23,7 +24,29 @@
 // CONTENT STYLES
 // ---------------------------------------------------------------
 .main-content {
-    max-width: 960px;
+    max-width: 960px - 150px; //150px padding left right
+    padding: 70px 75px 70px 75px;
     margin: 0 auto;
-    background-color:$main-content-bg-color;
+    background-color: $main-content-bg-color;
+
+    @include box-shadow( $drop-shadow-color 0px 0px 20px );
+    header {
+        text-align: center;
+        margin: 0px 0px 60px 0px;
+    }
+    h2 {
+        padding: 10px 0px 30px 0px;
+    }
+    p {
+        padding: 0px 0px 20px 0px;
+    }
+    figure {
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    img {
+        @include box-shadow ( $drop-shadow-color 0px 0px 20px );
+        max-width: 600px;
+    }
 }

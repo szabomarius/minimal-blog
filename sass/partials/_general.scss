@@ -13,3 +13,9 @@ a {
 }
 h1 {font-family: $heading-type;}
 h2 {font-family: $subheading-type;}
+
+// Text selection color
+@include selection {
+	color: $light-bg-color;
+	background: $main-color;
+}

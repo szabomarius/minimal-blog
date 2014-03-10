@@ -22,3 +22,39 @@
 .social_links {
 	line-height:100px;
 }
+// CONTENT STYLES
+// ---------------------------------------------------------------
+.main-content {
+	font-family : $reading-type;
+	h1 {
+		font-size: $content_h1_fs / $base-font-size *1em;
+		line-height: $content_h1_lh / $content_h1_fs *1em;
+		letter-spacing:-3px;
+		font-weight: bold;
+	}
+	header {
+		.post_date {
+			font-family: $subheading-type;
+			font-size: $content_span_fs / $base-font-size *1em;
+			font-weight: 100;
+			color: $post-date-color;
+			line-height: $content_span_lh / $content_span_fs *1em;
+			letter-spacing:0px;
+		}
+	}
+	h2 {
+		font-size: $content_h2_fs / $base-font-size *1em;
+		line-height: $content_h2_lh / $content_h2_fs *1em;
+		letter-spacing:-1px;
+	}
+	p {
+		text-indent: 1.5em;
+		font-size: $content_p_fs / $base-font-size *1em;
+		line-height: $content_p_lh / $content_p_fs *1em;
+		color: $body-text-color;
+	}
+	figcaption {
+		@extend .post_date;
+		padding: 5px 0px 5px 0px;
+	}
+}

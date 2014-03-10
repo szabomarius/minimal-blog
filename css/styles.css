@@ -23,10 +23,10 @@
 }
 
 @font-face {
-  font-family: 'open_sanslight';
+  font-family: 'Open Sans';
   src: url("fonts/OpenSans-Light-webfont.eot");
   src: url("fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Light-webfont.woff") format("woff"), url("fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("fonts/OpenSans-Light-webfont.svg#open_sanslight") format("svg");
-  font-weight: lighter;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -40,8 +40,8 @@
 
 @font-face {
   font-family: 'Cambo';
-  src: url("cambo-regular-webfont.eot");
-  src: url("cambo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("cambo-regular-webfont.woff") format("woff"), url("cambo-regular-webfont.ttf") format("truetype"), url("cambo-regular-webfont.svg#camboregular") format("svg");
+  src: url("fonts/cambo-regular-webfont.eot");
+  src: url("fonts/cambo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/cambo-regular-webfont.woff") format("woff"), url("fonts/cambo-regular-webfont.ttf") format("truetype"), url("fonts/cambo-regular-webfont.svg#camboregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -151,7 +151,7 @@ button {
 /* line 3, ../sass/partials/_general.scss */
 body {
   color: #3f3f3f;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Cambo", "Verdana", serif;
   font-size: 16px;
   background-color: #f7f7f7;
 }
@@ -189,6 +189,18 @@ h2 {
   font-family: "Open Sans", "Arial", sans-serif;
 }
 
+/* line 22, ../sass/partials/_mixins.scss */
+::-moz-selection {
+  color: #f7f7f7;
+  background: #a0507e;
+}
+
+/* line 23, ../sass/partials/_mixins.scss */
+::selection {
+  color: #f7f7f7;
+  background: #a0507e;
+}
+
 /* line 7, ../sass/partials/_typography.scss */
 .main_header h1 {
   font-size: 5.6875em;
@@ -211,30 +223,99 @@ h2 {
   line-height: 100px;
 }
 
+/* line 27, ../sass/partials/_typography.scss */
+.main-content {
+  font-family: "Cambo", "Verdana", serif;
+}
+/* line 29, ../sass/partials/_typography.scss */
+.main-content h1 {
+  font-size: 3.0625em;
+  line-height: 1.22449em;
+  letter-spacing: -3px;
+  font-weight: bold;
+}
+/* line 36, ../sass/partials/_typography.scss */
+.main-content header .post_date, .main-content header figcaption {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: #999999;
+  line-height: 0em;
+  letter-spacing: 0px;
+}
+/* line 45, ../sass/partials/_typography.scss */
+.main-content h2 {
+  font-size: 1.75em;
+  line-height: 1.28571em;
+  letter-spacing: -1px;
+}
+/* line 50, ../sass/partials/_typography.scss */
+.main-content p {
+  text-indent: 1.5em;
+  font-size: 1.25em;
+  line-height: 1.6em;
+  color: #666666;
+}
+/* line 56, ../sass/partials/_typography.scss */
+.main-content figcaption {
+  padding: 5px 0px 5px 0px;
+}
+
 /* line 6, ../sass/partials/_layout.scss */
 .main_header {
   text-align: center;
+  margin: 0px 0px 20px 0px;
 }
-/* line 8, ../sass/partials/_layout.scss */
+/* line 9, ../sass/partials/_layout.scss */
 .main_header h2 {
   background-color: #a0507e;
 }
 
-/* line 13, ../sass/partials/_layout.scss */
+/* line 14, ../sass/partials/_layout.scss */
 .social_links li {
   display: inline;
   margin: 0px 8px 0px 8px;
 }
 
-/* line 18, ../sass/partials/_layout.scss */
+/* line 19, ../sass/partials/_layout.scss */
 .active_icon {
   margin-left: -40px;
   display: none;
 }
 
-/* line 25, ../sass/partials/_layout.scss */
+/* line 26, ../sass/partials/_layout.scss */
 .main-content {
-  max-width: 960px;
+  max-width: 810px;
+  padding: 70px 75px 70px 75px;
   margin: 0 auto;
   background-color: #fcfcfc;
+  -webkit-box-shadow: #e5e5e5 0px 0px 20px;
+  -moz-box-shadow: #e5e5e5 0px 0px 20px;
+  box-shadow: #e5e5e5 0px 0px 20px;
+}
+/* line 33, ../sass/partials/_layout.scss */
+.main-content header {
+  text-align: center;
+  margin: 0px 0px 60px 0px;
+}
+/* line 37, ../sass/partials/_layout.scss */
+.main-content h2 {
+  padding: 10px 0px 30px 0px;
+}
+/* line 40, ../sass/partials/_layout.scss */
+.main-content p {
+  padding: 0px 0px 20px 0px;
+}
+/* line 43, ../sass/partials/_layout.scss */
+.main-content figure {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 48, ../sass/partials/_layout.scss */
+.main-content img {
+  -webkit-box-shadow: #e5e5e5 0px 0px 20px;
+  -moz-box-shadow: #e5e5e5 0px 0px 20px;
+  box-shadow: #e5e5e5 0px 0px 20px;
+  max-width: 600px;
 }

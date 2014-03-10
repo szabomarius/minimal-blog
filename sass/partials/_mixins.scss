@@ -15,3 +15,10 @@
 		color:$l-color;
 	}
 }
+
+// Text selection mixin
+// ---------------------------------------------------------------
+@mixin selection {
+	::-moz-selection { @content; }
+	::selection { @content; }
+}
