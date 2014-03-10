@@ -12,40 +12,18 @@
 .social_links {
 	li {
 		display: inline;
-		margin:0px 8px 0px 8px;
+		margin: 0px 8px 0px 8px;
 	}
 }
 .active_icon {
-	margin-left:-40px;
-	display:none;
+	margin-left: -40px;
+	display: none;
 }
-// UI TOOLTIP
-.ui-tooltip {
-    background: $basic-text-color;
-    color: white;
-    border: none;
-    padding: 0;
-    opacity: 1;
 
-    -webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	border-radius: 500px;
-
-	font-size:0.8em;
-}
-.ui-tooltip-content {
-    position: relative;
-    padding: 1em;
-}
-.ui-tooltip-content::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    display: block;
-    width: 0;
-
-    top: -6px;
-    left: 40%;
-    border-color: $basic-text-color transparent;
-    border-width: 0 8px 8px;
+// CONTENT STYLES
+// ---------------------------------------------------------------
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:$main-content-bg-color;
 }
