@@ -221,21 +221,22 @@ h2 {
 /* line 22, ../sass/partials/_typography.scss */
 .social_links {
   line-height: 100px;
+  color: blue;
 }
 
-/* line 27, ../sass/partials/_typography.scss */
+/* line 28, ../sass/partials/_typography.scss */
 .main-content {
   font-family: "Cambo", "Verdana", serif;
 }
-/* line 29, ../sass/partials/_typography.scss */
+/* line 30, ../sass/partials/_typography.scss */
 .main-content h1 {
   font-size: 3.0625em;
   line-height: 1.22449em;
   letter-spacing: -3px;
   font-weight: bold;
 }
-/* line 36, ../sass/partials/_typography.scss */
-.main-content header .post_date, .main-content header figcaption {
+/* line 37, ../sass/partials/_typography.scss */
+.main-content header span {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 1em;
   font-weight: 100;
@@ -243,22 +244,26 @@ h2 {
   line-height: 0em;
   letter-spacing: 0px;
 }
-/* line 45, ../sass/partials/_typography.scss */
+/* line 46, ../sass/partials/_typography.scss */
 .main-content h2 {
   font-size: 1.75em;
   line-height: 1.28571em;
   letter-spacing: -1px;
 }
-/* line 50, ../sass/partials/_typography.scss */
+/* line 51, ../sass/partials/_typography.scss */
 .main-content p {
   text-indent: 1.5em;
   font-size: 1.25em;
   line-height: 1.6em;
   color: #666666;
 }
-/* line 56, ../sass/partials/_typography.scss */
+/* line 57, ../sass/partials/_typography.scss */
 .main-content figcaption {
-  padding: 5px 0px 5px 0px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: #999999;
+  letter-spacing: 0px;
 }
 
 /* line 6, ../sass/partials/_layout.scss */
@@ -318,4 +323,25 @@ h2 {
   -moz-box-shadow: #e5e5e5 0px 0px 20px;
   box-shadow: #e5e5e5 0px 0px 20px;
   max-width: 600px;
+}
+/* line 52, ../sass/partials/_layout.scss */
+.main-content figcaption {
+  padding: 5px 0px 5px 0px;
+}
+/* line 55, ../sass/partials/_layout.scss */
+.main-content footer {
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+/* line 58, ../sass/partials/_layout.scss */
+.main-content footer a {
+  background-color: red;
+  background: url('../img/back-icon.png?1394457272');
+  background-position: left 10px;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 60px;
+}
+/* line 64, ../sass/partials/_layout.scss */
+.main-content footer a:hover {
+  color: #a0507e;
 }

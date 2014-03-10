@@ -63,3 +63,12 @@ $(".social_links img").hover(
 		}
 	}
 );
+// Background Position Change for Back Button
+$(".back_button").hover(
+	function() {
+		$(this).css('background-position', 'left -46px');
+	},
+	function() {
+		$(this).css('background-position', 'left 10px');
+	}
+);

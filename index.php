@@ -18,7 +18,7 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <header class="main_header">
 	<a href="#"><h1>Szabo Marius</h1></a>
-	<h2>Isn't this blog just fabulous?</h2>
+	<h2>Google hates me for changhing this h2 so much</h2>
 	<ul class="social_links">
 		<li data-tip="Twitter"><a href="https://twitter.com/" target="_blank">
 			<img src="img/social/twitter-icon.png"  title="Twitter" alt="Twitter profile" />
@@ -45,19 +45,19 @@
 	<article>
 		<header>
 			<h1>Content Choreography</h1>
-			<span class="post_date">Posted on 7 May 2013</span>
+			<span>Posted on 7 May 2013</span>
 		</header>
 		<h2>The concept of permanently placing content on a web page for a single browsing width or resolution is becoming a thing of the past.</h2>
 		<p>Bacon ipsum dolor sit amet doner ex corned beef, nostrud enim adipisicing quis proident id turkey landjaeger. Swine magna kevin turkey. Meatloaf ut do jowl pariatur, chuck irure ground round quis laboris hamburger esse tenderloin tongue fatback. Capicola occaecat pork landjaeger reprehenderit.</p>
 		<p>Rump fatback short loin, boudin consequat sausage shoulder. Turkey reprehenderit fugiat fatback. Occaecat porchetta reprehenderit, cupidatat t-bone kevin est ground round aliquip tri-tip bacon. Turducken frankfurter officia jerky short loin in minim. Hamburger enim nisi doner beef. Pork belly anim do, rump labore sirloin non chuck ea aliquip. Ground round mollit occaecat, officia voluptate sunt eu beef chuck esse sirloin in sausage.</p>
 		<h2>Content Stacking</h2>
-		<p>Cillum esse meatball landjaeger jowl shank sausage ribeye pork chop officia aliqua ullamco deserunt. Chicken pig tongue ham hock laborum. Porchetta cillum corned beef ham hock nisi turkey ut cupidatat veniam venison. Biltong irure in exercitation ham hock ad chuck rump incididunt capicola. Pig doner tenderloin et, voluptate jerky spare ribs prosciutto.</p>
+		<p class="test">Cillum esse meatball landjaeger jowl shank sausage ribeye pork chop officia aliqua ullamco deserunt. Chicken pig tongue ham hock laborum. Porchetta cillum corned beef ham hock nisi turkey ut cupidatat veniam venison. Biltong irure in exercitation ham hock ad chuck rump incididunt capicola. Pig doner tenderloin et, voluptate jerky spare ribs prosciutto.</p>
 		<figure>
 			<img src="img/mask.jpg" alt="picture of a mask" />
 			<figcaption>This is a figure caption</figcaption>
 		</figure>
 		<footer>
-			<a href="#">Back to blog</a>
+			<a class="back_button" href="#">Back to blog</a>
 		</footer>
 	</article> <!-- end of article blogpost -->
 	<section class="blogpost-comments">
