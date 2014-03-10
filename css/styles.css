@@ -258,7 +258,7 @@ h2 {
   color: #666666;
 }
 /* line 57, ../sass/partials/_typography.scss */
-.main-content figcaption {
+.main-content .fig-caption, .main-content a.back_button {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 1em;
   font-weight: 100;
@@ -337,7 +337,7 @@ h2 {
 .main-content footer a {
   background-color: red;
   background: url('../img/back-icon.png?1394457272');
-  background-position: left 10px;
+  background-position: left 13px;
   background-repeat: no-repeat;
   padding: 20px 20px 20px 60px;
 }

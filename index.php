@@ -54,7 +54,7 @@
 		<p class="test">Cillum esse meatball landjaeger jowl shank sausage ribeye pork chop officia aliqua ullamco deserunt. Chicken pig tongue ham hock laborum. Porchetta cillum corned beef ham hock nisi turkey ut cupidatat veniam venison. Biltong irure in exercitation ham hock ad chuck rump incididunt capicola. Pig doner tenderloin et, voluptate jerky spare ribs prosciutto.</p>
 		<figure>
 			<img src="img/mask.jpg" alt="picture of a mask" />
-			<figcaption>This is a figure caption</figcaption>
+			<figcaption class="fig-caption">This is a figure caption</figcaption>
 		</figure>
 		<footer>
 			<a class="back_button" href="#">Back to blog</a>
